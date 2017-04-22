@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+
+.one{
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+}

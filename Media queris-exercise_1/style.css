@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: red;
+  width: 100%;
+}
+
+@media (min-width:480px){
+     body{
+       background-color: yellow;
+     }
+}
+
+@media (min-width:768px){
+     body{
+       background-color: green;
+     }
+}

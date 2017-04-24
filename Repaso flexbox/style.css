@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-size: 16px;
+  background: rgba(0, 0, 0, .5);
+}
+
+
+.header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blog{
+  color: white ;
+  font-size: 18px;
+  padding-left: 80px;
+
+}
+
+.list_nav{
+  display: inline;
+  color: white;
+  margin-right: 45px;
+}
+
+
+.author{
+  display: flex;
+  justify-content: space-between;
+  padding:50px;
+  margin-left: 45px;
+  margin-right: 85px;
+
+
+}
+
+.tittle{
+  padding-bottom: 70px;
+}
+
+p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ .content{
+   width: 100%;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 30px;
+
+}
+
+.copyright{
+ padding:0;
+ margin-left: 45px;
+}
+
+.footer_nav{
+  display: inline;
+  width: 100%;
+  margin-right: 45px;
+}
+.container-banner{
+  position: relative;
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  left: 350px;
+  top: 150px;
+  position: fixed;
+
+}
+
+.banner{
+  font-size: 16px;
+
+}
+
+.hello{
+   text-align: center;
+   padding-top: 50px;
+   font-style: bold;
+   font-size: 30px;
+
+
+
+}
+
+.text{
+   text-align: center;
+   padding: 10px;
+   margin-top: 30px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-around;
+  text-align:  center;
+  padding-top: 20px;
+
+
+}
+
+.refuse{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid grey;
+  text-decoration: none;
+  padding:10px;
+  flex-grow: 0.2;
+  margin-left: 60px;
+
+}
+
+.subscribe{
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding:10px;
+  flex-grow: 0.2;
+  margin-right: 60px;
+}

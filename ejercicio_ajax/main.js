@@ -24,6 +24,5 @@ function requestInfo() {
   request.onerror = function() {
     console.log('Error al tratar de conectarse con el servidor');
   };
-//3-request.send: manda la petición al servidor
   request.send();
 }

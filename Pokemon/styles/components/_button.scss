@@ -1,0 +1,67 @@
+// .burguerBtn {
+//   // background-color: rgb(37,81,136);
+//   border: 2px solid rgba(5, 43, 255, 0.3);
+//   border-radius: 4px;
+//   padding: 16px;
+//   width: 60px;
+//   height: 9vh;
+//   margin-top: 7%;
+//   margin-left: 30%;
+// }
+.burguerBtn {
+  background-color: rgb(37,81,136);
+  border: 2px solid rgba(5, 43, 255, 0.3);
+  border-radius: 4px;
+  width: 57px;
+  height: 8vh;
+  margin-top: 36px;
+  margin-left: 27%;
+  text-align: center;
+  padding-top: 12px;
+}
+.glyphicon {
+  font-size: 20px;
+}
+
+.input {
+  border: 2px solid rgba(5, 43, 255, 0.3);
+  border-radius: 6px;
+  font-size: 16px;
+  // background-color: white;
+  background-image: url('images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 18px 10px 38px;
+  transition: width 0.4s ease-in-out;
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+@media (min-width: $size-media-query-tablet){
+
+.burguerBtn{
+ display: none;
+}
+
+.input {
+  border: 2px solid gba(5, 43, 255, 0.3);
+  border-radius: 6px;
+  font-size: 16px;
+  // background-color: white;
+  background-image: url('images/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 400px;
+}
+
+.input:focus {
+  width: 85%;
+  margin-left: 8%;
+
+}
+}

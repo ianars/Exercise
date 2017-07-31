@@ -1,8 +1,7 @@
 .footer-content{
-  background-color: rgb(26, 56, 94);
+  background-color: $primary-color;
   display: flex;
-
-  width: 100%;
+  width: 125%;
   height: 100px;
 }
 .footer-content p{

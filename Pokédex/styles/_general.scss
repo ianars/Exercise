@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 html,
 body{
-background-color: rgb(236, 183, 91);
+background-color: $body-background-color;
 font-family: 'Roboto', bold, sans-serif;
 margin: 0;
 padding: 0;

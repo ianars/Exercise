@@ -3,14 +3,14 @@
  width: 100%;
 }
 .nav-mobile li a {
-  color: white;
+  color: $secondary-color;
   text-decoration: none;
 }
 .nav-mobile li a:hover {
- color: #dcedfa;
+ color: $hover-color;
 }
 .nav-mobile{
-  border: 2px solid rgba(5, 43, 255, 0.2);
+  border: 2px solid $border-color;
   display: none;
   font-size: 1.3em;
   list-style: none;
@@ -53,13 +53,16 @@
   list-style: none;
 }
 .nav-desktop a {
-  color: rgb(37, 81, 136);
+  color: $primary-color;
 }
 .nav-desktop a:hover {
-  color: rgb(66, 139, 202);
+  color: $hover-color;
   text-decoration: none;
 }
-
+.nav-mobile{
+  display: none;
+}
+}
 // .sideNav-desktop a {
 //   position: absolute;
 //   left: -110px;
@@ -85,20 +88,17 @@
 //   top: 130px;
 //   background-color: rgb(255, 193, 7);
 // }
-// .contact{
-//   background-color: rgb(33, 150, 243);
-//   top: 200px;
-// }
+// // .contact{
+// //   background-color: rgb(33, 150, 243);
+// //   top: 200px;
+// // }
 // .nav ul li{
 //   list-style-type: none;
 // }
+// }
 
-.nav-mobile{
-  display: none;
-}
 
 // .cards-container{
 // position: relative;
 // text-align: center;
 // }
-}
